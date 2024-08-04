@@ -1,0 +1,24 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "chokidar": "^3.6.0",
+    "rollup": "^4.20.0",
+    "tslib": "^2.6.3"
+  },
+  "dependencies": {
+    "websocket": "^1.0.35"
+  }
+}
